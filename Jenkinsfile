@@ -5,7 +5,7 @@ pipeline{
            steps{
               echo 'Running build automation'
        
-              archiveArtifacts artifacts: 'demoApplication.zip' 
+              archiveArtifacts artifacts: 'demo-0.0.1-SNAPSHOT.jar' 
              
              }
          
