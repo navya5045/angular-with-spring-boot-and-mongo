@@ -7,7 +7,7 @@ pipeline {
     }
 
     stages {
-         stage('package') {
+         stage('compile') {
              steps {
                 
                 git 'https://github.com/navya5045/angular-with-spring-boot-and-mongo'
